@@ -23,7 +23,7 @@ normalized_answers = {
 }
 
 # Configure the Gemini API
-genai.configure(api_key='AIzaSyDo9ckxiz3sdLOAuPPdjczg2zdTxAVM7MI')  
+genai.configure(api_key='Api_Key')  
 
 # Function to select random questions
 def select_random_questions(rag_data, num_questions=5, category=None, difficulty=None):
@@ -136,3 +136,4 @@ def evaluate_exam():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
