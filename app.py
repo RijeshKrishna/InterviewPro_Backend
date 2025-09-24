@@ -1,3 +1,4 @@
+import os
 import json
 import random
 import google.generativeai as genai
@@ -136,5 +137,6 @@ def evaluate_exam():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 
